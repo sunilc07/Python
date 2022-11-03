@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 
-data=pd.read_csv("C:\\Users\\user\\Downloads\\final.csv")
+data=pd.read_csv("final.csv")
 st.set_page_config(page_title="IPL 2022",layout="wide")
 st.header("IPL 2022 Player Stats")
 def img_url(string):
