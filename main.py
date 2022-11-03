@@ -90,16 +90,18 @@ elif type == "All-Rounder ":
 
 else:
     with col2:
-        st.metric(label="Wickets", value=wicket[0])
+        st.metric(label="Name", value=name[0])
         st.metric(label="Team", value=team[0])
         st.metric(label="Type", value=type[0])
         st.metric(label="Batting Style", value=bat_style[0])
     with col3:
         st.metric(label="Stumping Made", value=stumping[0])
         st.metric(label="Run Scored", value=runscored[0])
+	st.metric(label="Batting Average", value=batavg[0])
+	st.metric(label="100s", value=hundred[0])
         st.metric(label="50s", value=fifty[0])
-        st.metric(label="Batting Average", value=batavg[0])
-        st.metric(label="50s", value=fifty[0])
+        
+        
 
 
 
